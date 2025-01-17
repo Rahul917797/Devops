@@ -1,2 +1,1 @@
-Rahul is learning DevOps...
-AWS Devops
+Hi Rahul
