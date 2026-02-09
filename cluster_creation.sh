@@ -24,7 +24,7 @@ kubectl version --short --client
 echo "====================================="
 echo "====================================="
 echo "Launching Kubernetes cluster with two nodes..."
-eksctl create cluster --name Rahul --region us-east-1 --nodegroup-name my-nodes --node-type t3.small --managed --nodes 2
+eksctl create cluster --name Rahul --region us-east-1 --nodegroup-name my-nodes --node-type t2.medium --managed --nodes 2
 sleep 2
 echo "Cluster is created successfully........ :):):)"
 echo "***********************************************"
