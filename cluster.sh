@@ -3,6 +3,8 @@ sleep 3
 echo "====================================="
 echo "Installing aws-cli version..."
 sleep 2
+sudo apt update -y
+sudo apt install unzip -y
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 sudo unzip awscliv2.zip  
 sudo ./aws/install
